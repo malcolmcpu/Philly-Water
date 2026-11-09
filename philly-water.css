@@ -1,0 +1,627 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.body-structure {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.titan-one-font {
+  font-family: 'Titan One', sans-serif;
+}
+
+/************************** HEADER PORTION **************************/
+header {
+  background: rgb(212, 70, 98);
+}
+
+h2 {
+  font-weight: 100;
+}
+
+#header-container {
+  display: flex;
+  width: 75%;
+  color: white;
+  padding: 1rem 0 1rem 0;
+  align-items: center;
+}
+
+.header-sections {
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+#nav-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  background: rgb(249, 211, 93);
+  border-radius: 25px;
+}
+/************************** MAIN PORTION **************************/
+main {
+  flex-wrap: wrap;
+}
+
+#header-subtitle {
+  background: rgb(249, 211, 93);
+  text-align: center;
+  color: rgb(81, 54, 76);
+  padding: 0.7rem 0 0.7rem 0;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+
+/*********** BANNER SECTION ***********/
+
+#banner {
+  display: flex;
+  background-image:
+    linear-gradient(45deg, rgb(149, 33, 64), rgba(15, 49, 67, 0)),
+    url('cold-drink.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+#banner-container {
+  display: flex;
+  height: auto;
+  width: 75%;
+  align-items: center;
+  color: white;
+  padding: 4rem 0 4rem 0;
+}
+
+#banner-text > h5 {
+  color: rgb(249, 211, 93);
+  letter-spacing: 0.1rem;
+}
+
+#banner-text > h1 {
+  padding: 1rem 0 1rem 0;
+  font-size: 5rem;
+  font-family: 'Titan One', sans-serif;
+}
+
+#site-moves {
+  padding: 2rem 0 1.5rem 0;
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+
+#site-moves > a {
+  text-decoration: none;
+  color: white;
+}
+
+#todays-flavors-button {
+  padding: 0.8rem 1.75rem 0.8rem 1.75rem;
+  background: rgb(249, 211, 93);
+  border-radius: 25px;
+  color: rgb(81, 54, 76);
+  font-weight: bolder;
+}
+
+#find-the-stand-button {
+  padding: 0.8rem 1.75rem 0.8rem 1.75rem;
+  border-radius: 25px;
+  border: 1px solid white;
+  font-weight: bolder;
+}
+
+#banner-text > h3 {
+  font-weight: 300;
+  font-family: 'Nunito', sans-serif;
+}
+
+#banner-text > h6 {
+  font-size: small;
+}
+
+/*********** FLAVORS SECTION ***********/
+
+#flavors {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: rgb(254, 248, 240);
+}
+
+#flavors-container {
+  width: 75%;
+  padding: 5rem 0 5rem 0;
+  /* border: 1px solid blue; */
+}
+
+#flavors-container > h5 {
+  color: rgb(212, 70, 98);
+  word-spacing: 0.25rem;
+}
+
+#flavors-container > h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+  font-family: 'Titan One', sans-serif;
+  padding-top: 1rem;
+  color: rgb(81, 54, 76);
+}
+
+#flavors-container > h4 {
+  font-weight: 300;
+  padding-top: 0.3rem;
+  color: rgb(81, 54, 76);
+}
+
+#flavor-boxes {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  row-gap: 1.5rem;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-between;
+  padding: 3rem 0 4rem 0;
+}
+
+#flavor-boxes > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  background: white;
+  border-radius: 0.75rem;
+}
+
+#flavor-boxes > #flavor-box-top1 {
+  border-top: 0.5rem solid rgb(228, 75, 106);
+}
+#flavor-boxes > #flavor-box-top2 {
+  border-top: 0.5rem solid rgb(249, 211, 93);
+}
+#flavor-boxes > #flavor-box-top3 {
+  border-top: 0.5rem solid rgb(89, 166, 219);
+}
+#flavor-boxes > #flavor-box-top4 {
+  border-top: 0.5rem solid rgb(242, 163, 88);
+}
+#flavor-boxes > #flavor-box-top5 {
+  border-top: 0.5rem solid rgb(191, 140, 226);
+}
+
+#flavor-text1,
+#flavor-text2,
+#flavor-text3,
+#flavor-text4,
+#flavor-text5 {
+  padding-bottom: 1rem;
+}
+
+#flavor-text1 > h3,
+#flavor-text2 > h3,
+#flavor-text3 > h3,
+#flavor-text4 > h3,
+#flavor-text5 > h3 {
+  padding-bottom: 0.5rem;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 100;
+}
+
+#flavor-text1 > h3 > span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(228, 75, 106);
+}
+
+#flavor-text2 > h3 > span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(249, 211, 93);
+}
+
+#flavor-text3 > h3 > span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(89, 166, 219);
+}
+
+#flavor-text4 > h3 > span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(242, 163, 88);
+}
+
+#flavor-text5 > h3 > span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(191, 140, 226);
+}
+
+#final-flavor-line {
+  display: flex;
+  justify-content: center;
+}
+
+#final-flavor-line > p > span {
+  background: rgb(249, 211, 93);
+  font-family: 'Titan One', sans-serif;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+/*********** SIZES SECTION ***********/
+#sizes {
+  display: flex;
+  justify-content: center;
+  background: rgb(198, 227, 243);
+  width: 100%;
+  padding: 5rem 0 5rem 0;
+}
+
+#sizes-container {
+  width: 75%;
+}
+
+#sizes-container > h5 {
+  color: rgb(228, 75, 106);
+}
+
+#sizes-container > h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+  font-family: 'Titan One', sans-serif;
+  padding: 1rem 0 2.5rem 0;
+  color: rgb(81, 54, 76);
+}
+
+#size-boxes-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+#size-boxes-container > .size-box {
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 18.5%;
+  border-radius: 1.5rem;
+}
+
+#size-boxes-container > .size-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+#size-boxes-container > .size-box > div > h4 {
+  padding-bottom: 1rem;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 200;
+  color: rgb(81, 54, 76);
+}
+
+#size-boxes-container > .size-box > div > h2 {
+  padding-bottom: 1rem;
+  font-family: 'Titan ONe', sans-serif;
+  color: rgb(228, 75, 106);
+}
+
+#size-boxes-container > .size-box > div > p {
+  text-align: center;
+  line-height: 1.75rem;
+  color: rgb(179, 176, 176);
+}
+
+#final-sizes-line {
+  text-align: center;
+  font-weight: bold;
+}
+/*********** FIND THE STAND SECTION ***********/
+#directions {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0 5.5rem 0;
+  width: 100%;
+  background: rgb(254, 248, 240);
+  /* border: 1px solid black; */
+}
+
+#directions-container {
+  width: 75%;
+}
+
+#directions-container > h5 {
+  color: rgb(228, 75, 106);
+}
+
+#directions-container > h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+  font-family: 'Titan One', sans-serif;
+  padding: 1rem 0 2.5rem 0;
+  color: rgb(81, 54, 76);
+}
+
+.find-the-stand-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.individual-box {
+  background: white;
+  padding: 1.5rem 2rem 1.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.inner-box {
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+#corner {
+  padding-right: 7.5rem;
+}
+
+.individual-box > .inner-box > h4 {
+  font-family: 'Titan One', sans-serif;
+  padding-bottom: 1rem;
+  color: rgb(185, 52, 78);
+}
+
+.individual-box > .inner-box {
+  line-height: 1.65rem;
+}
+
+#span-bold > p > span {
+  font-weight: bolder;
+}
+
+#cash-bold {
+  font-weight: bolder;
+  background: rgb(249, 211, 93);
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: medium;
+}
+
+#phone-addy > a {
+  color: rgb(185, 52, 78);
+  font-weight: bolder;
+}
+
+/************************** FOOTER PORTION **************************/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  background: rgb(81, 54, 76);
+}
+
+.footer-sections {
+  display: flex;
+  width: 75%;
+  word-spacing: 0.2rem;
+}
+
+#summary {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  gap: 3rem;
+  padding: 2rem 0 2rem 0;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.521);
+}
+
+#summary > div > h4 {
+  font-family: 'Titan One', sans-serif;
+  padding-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+#summary > div > p {
+  color: lightgray;
+}
+
+#copyright-top {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#copyright-top > #back-home > a {
+  text-decoration: underline;
+  color: lightgray;
+}
+
+#copyright,
+#back-home {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  color: lightgray;
+}
+
+#footer-phone {
+  text-decoration: underline;
+}
+
+/******************************** ADDITIONAL STYLES ******************************/
+
+/*********** DEFAULT/DESKTOP MONITOR FORMAT ************/
+@media screen and (min-width: 1024px) {
+  .header-sections > #shop-logo {
+    display: none;
+  }
+}
+
+/*********** LAPTOP SCREEN FORMAT ************/
+@media screen and (max-width: 1024px) {
+  #shop-logo {
+    display: none;
+  }
+
+  .find-the-stand-boxes {
+    gap: 2rem;
+  }
+
+  nav > a {
+    font-size: small;
+  }
+
+  #nav-call {
+    background: rgb(6, 6, 166);
+  }
+}
+
+/******* TABLET SCREEN FORMAT *******/
+@media screen and (max-width: 768px) {
+  #flavor-link,
+  #sizes-link,
+  #directions-link,
+  #nav-call {
+    display: none;
+  }
+
+  #shop-logo {
+    display: block;
+    font-size: 3rem;
+  }
+
+  header {
+    background: orange;
+  }
+
+  #flavor-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0 4rem 0;
+  }
+
+  #size-boxes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  #size-boxes-container > .size-box {
+    width: 100%;
+  }
+
+  #directions-container > .find-the-stand-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-box {
+    text-align: center;
+    padding: 0;
+  }
+
+  #corner {
+    padding-right: 1rem;
+  }
+}
+
+/******* MOBILE SCREEN FORMAT *******/
+@media screen and (max-width: 580px) {
+  header {
+    background: firebrick;
+  }
+
+  #header-container > h2 {
+    color: rgb(40, 40, 142);
+  }
+
+  #banner-text > h5,
+  #banner-text > h1,
+  #banner-text > h3,
+  #banner-text > h6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #banner-text > #site-moves {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #flavors-container > h5,
+  #flavors-container > h2,
+  #flavors-container > h4 {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    text-align: center;
+  }
+
+  #final-flavor-line > p {
+    text-align: center;
+    font-size: small;
+  }
+
+  #sizes-container > h5,
+  #sizes-container > h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #directions-container > h5,
+  #directions-container > h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #copyright-top > #back-home {
+    justify-content: flex-end;
+  }
+
+  #summary {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #summary > #business-summary {
+    display: none;
+    flex-direction: column;
+  }
+}
